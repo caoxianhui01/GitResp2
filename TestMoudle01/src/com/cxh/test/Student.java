@@ -5,8 +5,13 @@ public class Student {
     private String gender;
     private double height;
 
-    public static void main(String[] args) {
+    public Student(String name, String gender, double height) {
+        this.name = name;
+        this.gender = gender;
+        this.height = height;
+    }
 
+    public Student() {
     }
 }
 
